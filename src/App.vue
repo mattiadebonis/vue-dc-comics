@@ -5,22 +5,27 @@
     <!-- /header della pagina -->
     
     <!-- main della pagina -->
-    <main>Main della pagina</main>
+    
+    <Main />
     <!-- /main della pagina -->
 
     <!-- footer della pagina -->
-    <footer>Footer della pagina</footer>
+    <Foot />
     <!-- /footer della pagina -->
   </div>
 </template>
 
 <script>
 import Header from "../src/components/Header.vue";
+import Main from "../src/components/Main.vue";
+import Foot from "../src/components/Foot.vue";
+
 export default {
   name: 'App',
   components:{
-    Header : Header
-    
+    Header : Header,
+    Main : Main,
+    Foot: Foot
     
   }
   
@@ -28,12 +33,17 @@ export default {
 </script>
 
 <style lang="scss">
+*{
+  margin:0;
+  padding: 0;
+  box-sizing:border-box;
+}
 #app {
+  
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
