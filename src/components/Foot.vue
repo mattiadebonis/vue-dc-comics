@@ -3,7 +3,7 @@
         <!-- prima colonna -->
         <div>
             <div class="menu_footer">
-                <h5>DC Comics</h5>
+                <h3>DC Comics</h3>
                 <ul>
                     <li>Characters</li>
                     <li>Comics</li>
@@ -15,7 +15,7 @@
                 </ul>
             </div>  
             <div class="menu_footer">
-                <h5>Shop</h5>
+                <h3>Shop</h3>
                 <ul>
                     <li>Shop DC</li>
                     <li>Shop DC Collectibles</li>
@@ -27,7 +27,7 @@
         <!-- seconda colonna -->
         <div>
             <div class="menu_footer">
-                <h5>DC</h5>
+                <h3>DC</h3>
                 <ul>
                     <li>Terms Of Use</li>
                     <li>Privacy policy (New)</li>
@@ -48,7 +48,7 @@
         <!-- terza colonna -->
         <div>
             <div class="menu_footer">
-                <h5>Sites</h5>
+                <h3>Sites</h3>
                 <ul>
                     <li>DC</li>
                     <li>MAD Magazine</li>
@@ -76,15 +76,28 @@ export default {
         display: flex
     }
 
-    .menu_footer h5{
-        text-transform: uppercase;
-        color: white;
+    footer{
+        background-image: url("../assets/footer-bg.jpg");
+        padding: 20px;
+        text-align: left;
+
     }
 
-    .menu li{
+    .menu_footer h3{
+        text-transform: uppercase;
+        color: white;
+        margin: 10px;
+        
+    }
+    .menu_footer ul{
+        margin: 20px;
+        text-align: left;
+
+    }
+
+    .menu_footer li{
         color: gray;
         list-style: none;
-
     }
     
 </style>
