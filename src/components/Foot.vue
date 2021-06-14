@@ -64,10 +64,10 @@
 </template>
 
 <script>
-
-export default {
-    name:"Foot"    
-}
+    
+    export default {
+        name:"Foot"    
+    }
 
 </script>
 

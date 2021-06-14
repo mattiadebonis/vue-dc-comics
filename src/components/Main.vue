@@ -1,14 +1,16 @@
 <template>
     <main>
-    
-    ->>Content Goes here
+        <Books />
     </main>
 </template>
 
 <script>
-
+import Books from "./Books.vue"
 export default {
-    name:"Main"    
+    name:"Main",
+    components: {
+        Books : Books
+    }
 }
 
 </script>
